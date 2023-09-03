@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 25px;
+}
+
+.inp {
+    display: flex;
+    column-gap: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    width: 22px;
+    border: 0;
+    font-size: 20px;
+}
+
+input::placeholder {
+    color: black;
+  }
+
+input[type="number"]:focus {
+    color: blue;
+    outline: 0;
+}
+
+.start {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 20px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.time-s {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-size: 20px;
+}
